@@ -1,0 +1,84 @@
+body {
+    /* Resetting Broswer Default Styles */
+    margin: 0;
+    padding: 0;
+
+    /* font-size (15px, text size), line-height (1.5 x font size), font-family */
+    /*  */
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+}
+
+/* Global */
+.container {
+    width: 80%;
+    margin: auto; /* Moves it to the middle */
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header #branding {
+    float: left;
+    color: rgb(255, 128, 0);
+}
+
+header li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav {
+    margin-top: 30px;
+    float: right;
+}
+
+header a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+header .current a {
+    text-decoration: underline;
+}
+
+header a:hover {
+    color: rgb(255, 128, 0);
+}
+
+.header p {
+    margin-top: 350px;
+    margin-left: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+/* header - index.html */
+#home-header {
+    height: 800px;
+    background-image: url('../img/homepage.jpg');
+    /* Ensures background image covers the entire container while maintaining its aspec-ratio. */
+    background-size: cover;
+}
+
+#what-we-do-header {
+    height: 800px;
+    background-image: url('../img/what_we_do.jpg');
+    /* Ensures background image covers the entire container while maintaining its aspec-ratio. */
+    background-size: cover;
+}
+
+#who-we-are-header {
+    height: 800px;
+    background-image: url('../img/who_we_are.jpg');
+    /* Ensures background image covers the entire container while maintaining its aspec-ratio. */
+    background-size: cover;
+}
+
