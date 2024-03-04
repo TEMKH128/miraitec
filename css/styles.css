@@ -82,3 +82,77 @@ header a:hover {
     background-size: cover;
 }
 
+
+.container .seperate-summary {
+    margin-top: 80px;
+}
+
+.container .seperate-summary h1, #boxes h1 {  
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.container .seperate-summary p, .container .seperate-summary a {
+    margin-left: 50px;
+    font-size: 25px;
+    width: 55%;
+}
+
+.container .arrow {
+    font-size: 40px;
+}
+
+.container .seperate-summary a {
+    color: rgb(255, 128, 0);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container .learn-more {
+    color: rgb(255, 128, 0);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 55%;
+}
+
+.container .seperate-summary a:hover, .container a.learn-more:hover {
+    text-decoration: underline;
+}
+
+.line-divider {
+    height: 1px;  /* Making line thicker */
+    border: none;  /* Remove default border */
+    background-color: rgb(0, 0, 0);
+    margin-top: 50px;
+}
+
+#boxes {
+    margin-top: 30px;
+}
+
+#boxes .box {
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    font-size: 25px;
+}
+
+#boxes .box h3 {
+    color: rgb(255, 128, 0);
+    font-weight: bold;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+
+.underline-colour {
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 128, 0);
+}
