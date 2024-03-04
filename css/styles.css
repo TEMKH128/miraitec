@@ -89,7 +89,7 @@ header a:hover {
 
 .container .seperate-summary h1, #boxes h1 {  
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .container .seperate-summary p, .container .seperate-summary a {
@@ -183,4 +183,26 @@ header a:hover {
     background-color: rgb(255, 128, 0);
     color:rgb(255, 255, 255);
     font-weight: bold;
+}
+
+/* footer */
+.container footer .linked-icon {
+    display: block;
+    margin: 20px 0;
+    font-size: 28px;
+    color: rgb(255, 128, 0);
+}
+
+.container footer .contact-text {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+.container footer a.contact-text:hover {
+    text-decoration: underline;
+}
+
+.container footer p {
+    font-size: 15px;            
 }
