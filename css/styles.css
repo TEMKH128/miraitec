@@ -82,7 +82,7 @@ header a:hover {
     background-size: cover;
 }
 
-
+/* main-content -homepage */
 .container .seperate-summary {
     margin-top: 80px;
 }
@@ -155,4 +155,32 @@ header a:hover {
 .underline-colour {
     text-decoration: underline;
     text-decoration-color: rgb(255, 128, 0);
+}
+
+/* Contact Us Section */
+.create-background-colour {
+    margin: 80px 0px;
+    height: 200px;
+    background-color: rgb(255, 128, 0);
+}
+
+
+
+.create-background-colour .container h2 {
+    float: left;
+    margin-top: 75px;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+
+.create-background-colour .container .contact-button {
+    float: right;
+    margin-top: 68px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(255, 128, 0);
+    color:rgb(255, 255, 255);
+    font-weight: bold;
 }
