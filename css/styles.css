@@ -88,6 +88,13 @@ header a:hover {
     background-size: cover;
 }
 
+#contact-us-header {
+    height: 800px;
+    background-image: url('../img/contact_us.jpg');
+    /* Ensures background image covers the entire container while maintaining its aspec-ratio. */
+    background-size: cover;
+}
+
 /* main-content -homepage */
 .container .seperate-summary {
     margin-top: 80px;
