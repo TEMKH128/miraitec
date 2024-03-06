@@ -45,7 +45,7 @@ header nav {
 header a {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -68,28 +68,28 @@ header a:hover {
 
 /* header - index.html */
 #home-header {
-    height: 800px;
+    height: 1000px;
     background-image: url('../img/homepage.jpg');
     /* Ensures background image covers the entire container while maintaining its aspec-ratio. */
     background-size: cover;
 }
 
 #what-we-do-header {
-    height: 800px;
+    height: 1000px;
     background-image: url('../img/what_we_do.jpg');
     /* Ensures background image covers the entire container while maintaining its aspec-ratio. */
     background-size: cover;
 }
 
 #who-we-are-header {
-    height: 800px;
+    height: 1000px;
     background-image: url('../img/who_we_are.jpg');
     /* Ensures background image covers the entire container while maintaining its aspec-ratio. */
     background-size: cover;
 }
 
 #contact-us-header {
-    height: 800px;
+    height: 1000px;
     background-image: url('../img/contact_us.jpg');
     /* Ensures background image covers the entire container while maintaining its aspec-ratio. */
     background-size: cover;
@@ -107,13 +107,13 @@ header a:hover {
 
 .container .seperate-summary p, .container .seperate-summary a {
     margin-left: 50px;
-    font-size: 20px;
+    font-size: 22px;
     width: 55%;
 }
 
 
 .container-2 p {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .container .arrow {
@@ -130,7 +130,7 @@ header a:hover {
     color: rgb(255, 128, 0);
     font-weight: bold;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 22px;
     margin-left: 50px;
     margin-top: 30px;
     width: 55%;
@@ -166,7 +166,7 @@ header a:hover {
     text-align: center;
     width: 30%;
     padding: 10px;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 #boxes .box h3 {
@@ -188,15 +188,14 @@ header a:hover {
 /* Contact Us Section */
 .create-background-colour {
     margin: 80px 0px;
-    height: 230px;
+    padding: 100px 0px;
     background-color: rgb(255, 128, 0);
 }
 
 
-
 .create-background-colour .container h2 {
     float: left;
-    margin-top: 75px;
+    padding-top: 35px;
     color:rgb(255, 255, 255);
     font-weight: bold;
 }
@@ -204,13 +203,64 @@ header a:hover {
 
 .create-background-colour .container .contact-button {
     float: right;
-    margin-top: 68px;
-    padding: 10px 20px;
+    padding: 35px 30px;
     border-radius: 20px;
     border-color: rgb(255, 255, 255);
     background-color: rgb(255, 128, 0);
     color:rgb(255, 255, 255);
     font-weight: bold;
+}
+
+textarea.make-block {
+    height: 120px;
+    font-size: 20px;
+
+}
+
+.make-block {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    height: 40px;
+}
+
+.container-2 form input {
+    font-size: 20px;
+}
+
+.container-2 form {
+    border: 3px solid rgb(255, 128, 0);
+    border-radius: 5px;
+    padding: 100px 30px;
+    margin: 80px 0px;
+    font-size: 22px;
+}
+
+#form-spacing {
+    overflow: visible;
+}
+
+.required {
+    color: rgb(255, 0, 0);
+}
+
+#form-intro {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+#submit-button {
+    height: 50px;
+    background-color: rgb(255, 128, 0);
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.seperator-2 {
+    margin-top: 80px;
 }
 
 /* footer */
@@ -233,4 +283,19 @@ header a:hover {
 
 .container footer p {
     font-size: 15px;            
+}
+
+
+/* Media Queries */
+/* 768 is around tablet size */
+@media(max-width: 768px) {
+    header #branding,
+    header nav, 
+    header nav li,
+    /* #newsletter form, */
+    #boxes .box {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
 }
