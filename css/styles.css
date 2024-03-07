@@ -292,10 +292,13 @@ textarea.make-block {
     header #branding,
     header nav, 
     header nav li,
-    /* #newsletter form, */
     #boxes .box {
         float: none;
         text-align: center;
         width: 100%;
+    }
+
+    header a {
+        font-size: 18px; 
     }
 }
