@@ -1,7 +1,7 @@
 ### Description/Features:
 ##
-* Responsive Web Design project advertising a pseudonym web design company (Thus contains placeholder data).
-* Features a Home, About and Services page.
+* Responsive Web Design project advertising a pseudonym technology company.
+* Features a Home, What We Do, Who We Are and a Contact Us page.
 ###
 ### Technology/Tools:
 ##
