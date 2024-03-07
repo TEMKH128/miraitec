@@ -68,21 +68,21 @@ header a:hover {
 
 /* header - index.html */
 #home-header {
-    height: 1000px;
+    height: 700px;
     background-image: url('../img/homepage.jpg');
     /* Ensures background image covers the entire container while maintaining its aspec-ratio. */
     background-size: cover;
 }
 
 #what-we-do-header {
-    height: 1000px;
+    height: 700px;
     background-image: url('../img/what_we_do.jpg');
     /* Ensures background image covers the entire container while maintaining its aspec-ratio. */
     background-size: cover;
 }
 
 #who-we-are-header {
-    height: 1000px;
+    height: 700px;
     background-image: url('../img/who_we_are.jpg');
     /* Ensures background image covers the entire container while maintaining its aspec-ratio. */
     background-size: cover;
