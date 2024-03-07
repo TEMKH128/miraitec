@@ -1,7 +1,7 @@
 ### Description/Features:
 ##
 * Live Demo of Website: https://temkh128.github.io/miraitec/
-* Responsive Web Design project advertising a pseudonym technology company.
+* Responsive Web Design project advertising a pseudonym technology company (MiraiTec).
 * Features a Home, What We Do, Who We Are and a Contact Us page.
 ###
 ### Technology/Tools:
