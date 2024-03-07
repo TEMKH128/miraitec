@@ -297,9 +297,6 @@ textarea.make-block {
         float: none;
         text-align: center;
         width: 100%;
-    }
-
-    header a {
-        font-size: 16px; 
+        font-size: 16px;
     }
 }
